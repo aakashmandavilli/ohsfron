@@ -23,7 +23,7 @@ export const createSession = () => async(dispatch) => {
   }
 }
 
-//  Sends the message to the bot - API CALL
+//  Sends the message to the bot - API CALl
 export const sendMessage = (message) => async (dispatch) => {
   try {
     const body = { input: message };
